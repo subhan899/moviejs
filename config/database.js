@@ -4,7 +4,7 @@ const mysql = require('mysql');
 const koneksi = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1',
+    password: '',
     database: 'dbmovie',
     multipleStatements: true
 });
